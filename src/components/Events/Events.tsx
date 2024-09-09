@@ -59,7 +59,7 @@ export default function Events() {
   return (
     <section
       id="events"
-      className="relative flex flex-col items-center justify-center w-full pt-16 bg-[#023e8a] -z-10 md:py-20 gap-y-2 md:gap-y-5"
+      className="relative flex flex-col items-center justify-center w-full pt-16 bg-[#023e8a] md:py-20 gap-y-2 md:gap-y-5"
     >
   
       <h2 className="pb-2 text-3xl text-white font-bold md:pb-10">Community Events</h2>
