@@ -63,7 +63,7 @@ export default function Events() {
     >
   
       <h2 className="pb-2 text-3xl font-bold md:pb-10">Community Events</h2>
-      <div className="grid grid-cols-1 gap-y-4 md:gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 xl:gap-x-8 md:grid-cols-2 bg-[#09AFC6] px-4 md:px-10 lg:px-16 py-8 md:py-14 xl:py-16">
+      <div className="grid grid-cols-1 gap-y-4 md:gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-3 xl:gap-x-8 md:grid-cols-2 bg-[#09AFC6] px-4 md:px-10 lg:px-16 py-8 md:py-14 xl:py-16">
         {events.map((event) => (
           <DisplayRC
             key={event.id}
@@ -75,7 +75,7 @@ export default function Events() {
           />
         ))}
 
-        <div className="flex items-center justify-center pt-1 tracking-wide text-white md:pt-0 md:text-right md:absolute md:bottom-24 md:right-10 2xl:bottom-36 lg:right-16">
+        <div className="flex items-center justify-center pt-1 tracking-wide text-white md:pt-0 md:text-right md:absolute md:bottom-24 md:right-10 2xl:bottom-26 lg:right-16">
           <Link href="https://kommunity.com/reactjs-developer-community-kenya-reactdevske/events">
             <a
               target="_blank"
