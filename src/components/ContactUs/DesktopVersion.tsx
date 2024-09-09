@@ -32,11 +32,11 @@ export default function DesktopVersion() {
       <h1 className="hidden lg:block font-montserrat text-[32px] font-[900] w-fit mx-auto py-4">
         Have an interesting idea we should discuss?
       </h1>
-      <div className="w-3/4 lg:bg-[#CEEDF4BF] mx-auto pt-[74px] pb-[46px] rounded-[10px]">
-        <form className="mx-auto w-2/4" onSubmit={handleSubmit}>
+      <div className="max-w-[800px] mx-auto pt-[36px] pb-[46px] rounded-[10px]">
+        <form className="mx-auto w-3/4" onSubmit={handleSubmit}>
           <label
             htmlFor="name"
-            className="block mb-2 text-xs text-black/[0.44] font-dmSans"
+            className="block mb-2 text-xs text-black font-dmSans"
           >
             Name
           </label>
@@ -51,7 +51,7 @@ export default function DesktopVersion() {
           <ValidationError prefix="Name" field="name" errors={state.errors} />
           <label
             htmlFor="email"
-            className="block mb-2 text-xs text-black/[0.44] font-dmSans"
+            className="block mb-2 text-xs text-black font-dmSans"
           >
             Email
           </label>
@@ -66,7 +66,7 @@ export default function DesktopVersion() {
           <ValidationError prefix="Email" field="email" errors={state.errors} />
           <label
             htmlFor="message"
-            className="block mb-2 text-xs text-black/[0.44] font-dmSans"
+            className="block mb-2 text-xs text-black font-dmSans"
           >
             Message
           </label>
@@ -77,6 +77,7 @@ export default function DesktopVersion() {
             className="border border-[#CEEDF4] w-full rounded-lg px-4 py-[22px] mb-9 h-[178px] resize-none outline-none placeholder-[#7E7979] font-montserrat text-base"
             required
           />
+
           <ValidationError
             prefix="Message"
             field="message"
@@ -92,7 +93,7 @@ export default function DesktopVersion() {
           <button
             type="submit"
             disabled={!captchaComplete || state.submitting}
-            className="block rounded-md p-2 my-2 w-[247px] h-14 mx-auto bg-[#EC0505] text-white font-bold font-montserrat"
+            className="block rounded-md p-2 my-2 w-full max-w-[250px] h-14 mx-auto bg-[#03045e] hover:bg-green-500 text-white hover:text-[#030309] font-bold font-montserrat mt-5 transition ease-in-out duration-300"
           >
             Send Message
           </button>

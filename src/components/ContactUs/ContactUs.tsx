@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import DesktopVersion from './DesktopVersion';
 import MobileVersion from './MobileVersion';
+import Footer from './Footer';
 
 export default function ContactUs() {
   const [screenWidth, setScreenWidth] = useState<number | null>(null);
@@ -20,11 +21,12 @@ export default function ContactUs() {
   if (!screenWidth) return null;
 
   return (
-    <section id="contact-us" className="bg-white pb-20">
-      <h2 className="font-montserrat text-base uppercase w-fit mx-auto py-5">
+    <section id="contact-us" className="bg-[#0096c7] pb-0">
+      <h2 className="font-montserrat text-lg uppercase w-fit mx-auto pt-5 font-semibold">
         Contact us
       </h2>
-      {screenWidth < breakpoint ? <MobileVersion /> : <DesktopVersion />}
+      <DesktopVersion />
+      <Footer/>
     </section>
   );
 }

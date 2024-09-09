@@ -23,7 +23,7 @@ export default function Home() {
       </Head>
       <main className="">
         <HeroHeader />
-        <div className="flex flex-col py-12 bg-white">
+        <div className="flex flex-col py-12 bg-[#0096c7]">
           <AboutUs />
         </div>
         <MissionPillars />

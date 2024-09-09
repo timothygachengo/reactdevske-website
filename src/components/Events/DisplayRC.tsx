@@ -20,7 +20,7 @@ export default function DisplayRC({
           alt={description}
           src={!src ? 'https://bit.ly/placeholder-img' : src}
           layout="fill"
-          objectFit="cover"
+          objectFit="contain"
           className={booleanFilter(
             'duration-700 ease-in-out group-hover:opacity-75',
             loading
