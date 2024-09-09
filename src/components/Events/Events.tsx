@@ -59,11 +59,11 @@ export default function Events() {
   return (
     <section
       id="events"
-      className="relative flex flex-col items-center justify-center w-full pt-16 bg-[#09AFC6] md:py-20 gap-y-2 md:gap-y-5"
+      className="relative flex flex-col items-center justify-center w-full pt-16 bg-[#023e8a] -z-10 md:py-20 gap-y-2 md:gap-y-5"
     >
   
-      <h2 className="pb-2 text-3xl font-bold md:pb-10">Community Events</h2>
-      <div className="grid grid-cols-1 gap-y-4 md:gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-3 xl:gap-x-8 md:grid-cols-2 bg-[#09AFC6] px-4 md:px-10 lg:px-16 py-8 md:py-14 xl:py-16">
+      <h2 className="pb-2 text-3xl text-white font-bold md:pb-10">Community Events</h2>
+      <div className="grid grid-cols-1 gap-y-4 md:gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-3 xl:gap-x-8 md:grid-cols-2 px-4 md:px-10 lg:px-16 py-8 md:py-14 xl:py-16">
         {events.map((event) => (
           <DisplayRC
             key={event.id}

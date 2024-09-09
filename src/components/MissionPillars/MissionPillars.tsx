@@ -20,7 +20,7 @@ export default function MissionPillars() {
   ];
 
   return (
-    <section className="flex flex-col w-full items-center bg-[#90e0ef] py-8 md:py-12 space-y-8 md:space-y-12">
+    <section className="flex flex-col w-full items-center bg-[#0077b6] py-8 md:py-12 space-y-8 md:space-y-12">
       <h2 className="uppercase font-bold text-2xl sm:text-3xl md:text-5xl tracking-wide text-center mb-6 md:mb-8 text-[#20232a]">
         Our Mission Pillars
       </h2>

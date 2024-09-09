@@ -16,7 +16,7 @@ export default function HeroHeader() {
         <Navbar />
       </div>
       <div className="w-full flex flex-col items-center justify-center z-10 bg-black bg-opacity-30">
-        <h1 className="font-montserrat font-bold text-center text-white text-[40px] leading-10 w-[388px] mx-auto mt-20">
+        <h1 className="font-montserrat font-bold text-center text-white text-[40px] leading-10 w-[388px] mx-auto mt-24">
           React Developer Community Kenya
         </h1>
         <p className="font-montserrat text-white w-[570px] mx-auto text-center mt-5 mb-[45px]">
