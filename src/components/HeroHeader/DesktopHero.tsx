@@ -5,7 +5,7 @@ import LinkButton from '../LinkButton/LinkButton';
 export default function HeroHeader() {
   return (
     <div
-      className="relative bg-cover bg-center bg-no-repeat min-h-[fit]"
+      className="relative bg-cover bg-center bg-no-repeat"
       style={{
         backgroundImage: `url('/images/hero-image.jpg')`,
         backgroundColor: '#160c0c',

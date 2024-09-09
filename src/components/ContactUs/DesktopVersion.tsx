@@ -32,7 +32,7 @@ export default function DesktopVersion() {
       <h1 className="hidden lg:block font-montserrat text-[32px] font-[900] w-fit mx-auto py-4">
         Have an interesting idea we should discuss?
       </h1>
-      <div className="max-w-[800px] mx-auto pt-[74px] pb-[46px] rounded-[10px]">
+      <div className="max-w-[800px] mx-auto pt-[36px] pb-[46px] rounded-[10px]">
         <form className="mx-auto w-3/4" onSubmit={handleSubmit}>
           <label
             htmlFor="name"
